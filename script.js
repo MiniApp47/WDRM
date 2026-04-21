@@ -27,12 +27,26 @@ document.addEventListener('DOMContentLoaded', function () {
                 badgeText: 'Classic Sift',
                 products: [
                       {
+                        id: 'PUMA 🐆',
+                        name: 'PUMA 🐆',
+                        flag: '🇲🇦',
+                        farm: '🥷🏿 WdreamFarm',
+                        promoEligible: false,
+                        type: 'MOUSS',
+                        image: 'ProductPuma.png',
+                        video: 'VideoPuma.mov',
+                        description: '',
+                        tarifs: [
+                            { weight: '10g', price: 30.00 },
+                        ]
+                    },
+                      {
                         id: 'Duck You 🤣',
                         name: 'Duck You 🤣',
                         flag: '🇲🇦',
                         farm: '🥷🏿 No Farm',
                         promoEligible: false,
-                        type: 'Frozen',
+                        type: 'MOUSS',
                         image: 'ProductDuck.png',
                         video: 'VideoDuck.mov',
                         description: '',
@@ -46,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         flag: '🇲🇦',
                         farm: '🥷🏿 No Farm',
                         promoEligible: false,
-                        type: 'Frozen',
+                        type: 'MOUSS',
                         image: 'ProductLas.png',
                         video: 'VideoLas.mov',
                         description: '',
@@ -185,6 +199,22 @@ document.addEventListener('DOMContentLoaded', function () {
                 name: 'STATIC 💎',
                 badgeText: '99.9% Purity',
                 products: [
+                      {
+                        id: 'critical',
+                        name: 'Critical 🕵️‍♂️',
+                        flag: '💎',
+                        farm: '🥷🏿 No Farm',
+                        promoEligible: false,
+                        type: 'STATIC',
+                        image: 'ProductC.png',
+                        video: 'VideoC.mp4',
+                        description: '',
+                        tarifs: [
+                            { weight: '5g', price: 30.00 },
+                            { weight: '10g', price: 50.00 },
+                            { weight: '25g', price: 120.00 },
+                        ]
+                    },
                     {
                         id: 'mimoza',
                         name: 'Mimoza Static 🔮',
