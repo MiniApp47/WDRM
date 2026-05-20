@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const contactLinks = [
     { name: 'CANAL TELEGRAM 📢', url: 'https://t.me/+TqnkZblrAuI4Zjg8', id: 'canal-tg', className: 'telegram-canal', text: "CANAL TELEGRAM 📢" },   
     { name: 'Moussdream 🥔', url: 'https://tutuduanyu.org/moussdream', id: 'potato', className: 'potato', text: "CONTACT POTATO 🥔" }, // Adapté selon ton user @moussdream
-    { name: 'SNAPCHAT 🟡', url: 'https://snapchat.com/t/jnwAs5ts', id: 'snapchat', className: 'snapchat', text: "SNAPCHAT 🟡" },
+    { name: 'SNAPCHAT 🟡', url: 'https://snapchat.com/t/etSk1xCY', id: 'snapchat', className: 'snapchat', text: "SNAPCHAT 🟡" },
 ];
 
  // --- DONNÉES HUNTERCOFFEE ---
