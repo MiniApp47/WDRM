@@ -1082,7 +1082,7 @@ ${product.description ? `<div class="product-description">${product.description}
 
         if (target.closest('#confirm-order-button')) {
             // Nom d'utilisateur cible
-            const username = 'moussdream'; 
+            const username = ''; 
             
             let message = formatOrderMessage();
             
